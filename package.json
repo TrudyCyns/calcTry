@@ -1,0 +1,23 @@
+{
+  "name": "calctry",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "test": "cucumber-js calcFeatures"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cucumber/cucumber": "^8.6.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.1",
+    "pug": "^3.0.2",
+    "selenium-webdriver": "^4.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
